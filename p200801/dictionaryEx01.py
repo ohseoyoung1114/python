@@ -32,6 +32,7 @@ print('addr' in dc)
 print(dc)
 print('Kim' in dc.values())
 
+#수정
 #딕셔너리의 요소를 모두 삭제
 dc.clear()
 print(dc)
