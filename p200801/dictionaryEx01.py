@@ -21,3 +21,17 @@ print(dc)
 print('key :', dc.keys())
 #값만 추출
 print('value :', dc.values())
+
+#get함수를 이용한 값 추출
+#print('age :', dc.get('addr', 'nokey'))
+#print('age :', dc['addr'])
+
+#in연산자 : 데이터의 존재여부
+print('age' in dc)
+print('addr' in dc)
+print(dc)
+print('Kim' in dc.values())
+
+#딕셔너리의 요소를 모두 삭제
+dc.clear()
+print(dc)
