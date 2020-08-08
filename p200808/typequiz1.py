@@ -39,4 +39,6 @@ print('[3.1]:', jumin[0:2])
 print('[3.2]:', jumin[2:4])
 print('[3.3]:', jumin[4:6])
 print('[3.4]:', jumin[7:8])
-print('[3.5]:', jumin.replace("921103-", "920803-"))
+jumin = jumin.replace("11", "08")
+# print('[3.5]:', jumin.replace("921103-", "920803-")) 변수에 저장을 안하면 복사본이기 때문에 저장이 안된다.\
+print('[3.5]:', jumin)
