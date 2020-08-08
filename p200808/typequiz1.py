@@ -26,13 +26,10 @@ number = [100,200,100,500,200,600,300]
 number = list(set(number))
 number.sort()
 print('[2.1]:', number)
-
-number = set(number)
-number.add(400)
-#print(number)
-number = list(number)
-#print(number)
-number.sort()
+#[2.2]요소 300 다음에 400을 추가하세요
+print(number.index(300))
+idx = number.index(300)+1
+number.insert(idx, 400)
 print('[2.2]:', number)
 
 
