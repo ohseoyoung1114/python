@@ -43,5 +43,6 @@ print(s1.union(s3))  # s1을 기준으로 s3의 데이터와 합친다.
 #집합 s1과 s3의 차집합
 #방법1) 연산자
 print(s1 - s3)
+
 #방법2) 함수
-print(s1.difference(s3))  # s1을 기준으로 s3의 데이터와 합친다.
+print(s1.difference(s3))  # s1을 기준으로 s3의 데이터를 뺀다.
