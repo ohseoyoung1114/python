@@ -22,7 +22,7 @@ else:
 
 #[4]사용자에게 정수 2개를 입력받아서, 큰 값 출력
 num3, num4 = eval(input('[4]정수 2개 입력:'))
-
+#[방법1]
 if num3 > num4 :
     print(num3)
 
@@ -32,6 +32,13 @@ elif num3 == num4 :
 else:
     print(num4)
 
+#[방법2] 조건연산자
+
+#[조건연산자]
+#true일때 if 조건식 else false 일때
+
+num3, num4 = eval(input('[4]정수 2개 입력:'))
+print(num3 if num3>num4 else num4)
 
 #[5]사용자에게 정수 1개를 입력 받아서, 해당되는 값의 범위를 출력
 num5 = eval(input('[5]정수 1개 입력:'))
