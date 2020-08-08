@@ -31,3 +31,4 @@ print(a)
 a = ['one', 'two', 'three']
 print(a.pop(1))  #리스트의 맨마지막 요소를 돌려주고 그 요소는 삭제한다.
 print(a)
+a.remove
