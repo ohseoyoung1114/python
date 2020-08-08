@@ -31,3 +31,13 @@ print(a)
 #key는 변경되지 않는 값이어야 한다.
 a = {(1,2): 'hi'}
 print(a)
+
+
+
+#p.95
+a = {'name': 'pey', 'phone':'01011111111', 'brth':'1111'}
+print(a.get('age', 20)) #age라는 키가 없으면 20을 age의 값을 쓰겠다.
+print(a)
+print('name' in a)
+print('age' in a)
+print('pey' in a.values())
